@@ -14,7 +14,7 @@ body{
 }
 
 .container{
-    background-color: rgba(255, 255, 1,0.2);
+    background-color: rgba(255, 255, 255,0.2);
     width: 80%;
     margin: auto;
     height: 80%;
@@ -41,6 +41,7 @@ body::after{
     height: 100%;
     background-color: red;
     position: absolute;
+     clip-path: circle(30% at right 80%);
     z-index: -1;
 }
 
@@ -114,5 +115,8 @@ margin-bottom: 10px;
     width: 200px;
 }
 
+  body::after{
+    clip-path: circle(45% at bottom );
+ } 
 
 }
