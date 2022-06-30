@@ -41,7 +41,6 @@ body::after{
     height: 100%;
     background-color: red;
     position: absolute;
-    clip-path: circle(30% at right 80%);
     z-index: -1;
 }
 
